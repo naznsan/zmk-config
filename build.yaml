@@ -22,3 +22,4 @@ include:
   - board: corneish_zen_v2_right
   - board: corneish_zen_v2_left
     shield: settings_reset
+    cmake-args: -DCONFIG_ZMK_DISPLAY=n
